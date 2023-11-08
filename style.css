@@ -1,0 +1,40 @@
+
+button:hover{
+    background-color: rgba(242, 194, 149, 0);
+    
+  }
+.container {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(217, 45, 180, 0.498);
+    border-radius: 12px;
+    border: 1px solid rgba(248, 245, 246, 0.3);
+}
+button{
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 20px 20px;
+    background: rgb(106, 228, 241);
+    font-size: 2em;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+input{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #dcddd9;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: oblique;
+    
+}
+body{
+    margin: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
